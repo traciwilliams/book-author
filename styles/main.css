@@ -104,19 +104,36 @@ aside {
 
 /*==========THUMBNAILS=========*/
 
-.thumbnails {
+.thumbnailbox {
+	width: 100%;
+	padding: 25px 25px 25px 25px;
 	margin: 100px 10px 0 10px;
+	display: inline-block;
 	background-color: green;
 
 }
 .bookthumbnails {
 	width: 100px;
-	//display: block;
+	display: inline;
 	background-color: red;
 
 }
 
-.bookcover {
+.bookthumbnails2 {
+	width: 100px;
+	//margin: 0 0 0 120px;
+	//display: inline;
+	background-color: white;
+
+}
+
+
+// .bookcover {
+// 	width: 100px;
+// 	display: inline;
+// }
+
+.bookcover2 {
 	width: 100px;
 	display: inline;
 }
