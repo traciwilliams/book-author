@@ -16,31 +16,51 @@ body {
 }
 
 main {
-	width: 50%;
+	width: 70%;
+	height: 600px;
 	background-color: coral;
 	float: left;
 }
 
 aside {
-	width: 50%;
+	width: 30%;
+	height: 600px;
 	background-color: lightgrey;
 	float: right;
 }
 
+/*==========HEADER=========*/
+#author-name {
+	width: 50%;
+	height: 35px;
+	background-color: white;
+	float: left;
+}
 
-/*==========NAVIGATION=========*/
+#author-logo {
+	width: 50%;
+	height: 35px;
+	background-color: blue;
+	float: right;
+}
+
+
+/*==========MAIN NAVIGATION=========*/
 #main-nav {
 	width: 100%;
+
 	background-color: red;
-	padding: 0;
+	padding: 25px 0 25px  0;
 	margin: 0;
 }
 
 #main-nav ul {
+	width: 100%;
 	list-style-type: none;
 }
 
 #main-nav li {
+
 	display: inline;
 }
 
@@ -51,6 +71,33 @@ aside {
 }
 
 #main-nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+/*==========ASIDE NAVIGATION=========*/
+#aside-nav {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#aside-nav ul {
+	width: 25%;
+	list-style-type: none;
+}
+
+#aside-nav li {
+	display: block;
+}
+
+
+#aside-nav a {
+	text-decoration: none;
+	color: yellow;
+}
+
+#aside-nav a:hover {
 	color: white;
 	background-color: black;
 }
